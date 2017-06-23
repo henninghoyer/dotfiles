@@ -100,20 +100,21 @@ brew install webkit2png
 brew install zopfli
 
 # Programming thingies
-brew install python
+#brew install python
 brew install python3
 
 # OS X Stuff
 brew install Caskroom/cask/osxfuse
 brew install homebrew/fuse/encfs
-brew cask install sublime-text
-brew cask install iterm2
-brew cask install spectacle
-brew cask install imageoptim
+brew cask install calibre
 brew cask install evernote
-brew cask install postbox
 brew cask install firefox
+brew cask install imageoptim
+brew cask install iterm2
+# brew cask install spectacle
+brew cask install postbox
 brew cask install postman
+brew cask install sublime-text
 
 # Remove outdated versions from the cellar.
 brew cleanup
