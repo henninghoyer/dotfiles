@@ -2,8 +2,18 @@
 
 # Install command-line tools using Homebrew.
 
-# Make sure we’re using the latest Homebrew.
-brew update
+#
+# First things first: Check if Homebrew is installed
+#
+which -s brew
+if [[ $? != 0 ]] ; then
+    # Install Homebrew
+    # https://github.com/mxcl/homebrew/wiki/installation
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"    
+else
+    # Make sure we're using the latest Homebrew
+    brew update
+fi
 
 # Upgrade any already-installed formulae.
 brew upgrade
@@ -37,6 +47,9 @@ fi;
 
 # Install `wget` with IRI support.
 brew install wget --with-iri
+
+# Install gnupg
+brew install gnupg
 
 # Install more recent versions of some macOS tools.
 brew install homebrew/dupes/grep
@@ -104,8 +117,8 @@ brew install zopfli
 brew install python3
 
 # OS X Stuff
-brew install Caskroom/cask/osxfuse
-brew install homebrew/fuse/encfs
+# brew install Caskroom/cask/osxfuse
+# brew install homebrew/fuse/encfs
 brew cask install calibre
 brew cask install evernote
 brew cask install firefox
