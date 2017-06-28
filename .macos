@@ -578,21 +578,21 @@ defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 ###############################################################################
 
 # Prevent Time Machine from prompting to use new hard drives as backup volume
-defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+# defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
 # Disable local Time Machine backups
-hash tmutil &> /dev/null && sudo tmutil disablelocal
+# hash tmutil &> /dev/null #&& sudo tmutil disablelocal -- aparently disablelocal is not available in 10.13 (yet)
 
 # Add sticky exclusions for some directories where we do not need a TM backup
-tmutil addexclusion -p /Users/henninghoyer/Downloads/
-tmutil addexclusion -p /Users/henninghoyer/Music/
-tmutil addexclusion -p /Users/henninghoyer/Pictures/
-tmutil addexclusion -p /Users/henninghoyer/Workspace/
-tmutil addexclusion -p /Users/henninghoyer/VBoxImages/
-tmutil addexclusion -p /Users/henninghoyer/Dropbox/
-tmutil addexclusion -p /Users/henninghoyer/Documents/Vault/
-tmutil addexclusion -p /Users/henninghoyer/node_modules/
-tmutil addexclusion -p /usr/local/
+# sudo tmutil addexclusion -p /Users/henninghoyer/Downloads/
+# sudo tmutil addexclusion -p /Users/henninghoyer/Music/
+# sudo tmutil addexclusion -p /Users/henninghoyer/Pictures/
+# sudo tmutil addexclusion -p /Users/henninghoyer/Workspace/
+# sudo tmutil addexclusion -p /Users/henninghoyer/VBoxImages/
+# sudo tmutil addexclusion -p /Users/henninghoyer/Dropbox/
+# sudo tmutil addexclusion -p /Users/henninghoyer/Documents/Vault/
+# sudo tmutil addexclusion -p /Users/henninghoyer/node_modules/
+# sudo tmutil addexclusion -p /usr/local/
 
 ###############################################################################
 # Activity Monitor                                                            #
