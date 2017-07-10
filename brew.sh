@@ -9,7 +9,7 @@ which -s brew
 if [[ $? != 0 ]] ; then
     # Install Homebrew
     # https://github.com/mxcl/homebrew/wiki/installation
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"    
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 else
     # Make sure we're using the latest Homebrew
     brew update
@@ -95,6 +95,7 @@ brew install homebrew/dupes/screen
 # brew install exiv2
 brew install git
 brew install git-lfs
+brew install hugo
 # brew install imagemagick --with-webp
 brew install jq
 # brew install lua
