@@ -96,7 +96,7 @@ brew install homebrew/dupes/screen
 brew install git
 brew install git-lfs
 brew install hugo
-# brew install imagemagick --with-webp
+# brew install imageoptimagemagick --with-webp
 brew install jq
 # brew install lua
 # brew install lynx
