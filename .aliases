@@ -35,6 +35,9 @@ alias la="ls -laF ${colorflag}"
 # List only directories
 alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
 
+# List contents of iCloud Drive
+alias lic="ls -l Library/Mobile\ Documents/com~apple~CloudDocs/"
+
 # Always use color output for `ls`
 alias ls="command ls ${colorflag}"
 
