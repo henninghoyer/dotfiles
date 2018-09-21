@@ -90,45 +90,43 @@ brew install homebrew/dupes/screen
 # brew install xz
 
 # Install other useful binaries.
-# brew install ack
-# brew install dark-mode
-# brew install exiv2
 brew install git
 brew install git-lfs
-brew install hugo
 # brew install imageoptimagemagick --with-webp
+brew install bat
+brew install prettyping
+brew install fzf
+brew install htop
+brew install fd
 brew install jq
-# brew install lua
-# brew install lynx
 brew install p7zip
 brew install pigz
-# brew install pv
 brew install rename
-# brew install rhino
+brew install ack
 brew install speedtest_cli
 brew install ssh-copy-id
 # brew install testssl
 brew install tree
-# brew install vbindiff
 brew install webkit2png
 brew install zopfli
 
 # Programming thingies
-#brew install python
 brew install python3
 
+brew install tldr
+brew install ponysay
+
 # OS X Stuff
-# brew install Caskroom/cask/osxfuse
-# brew install homebrew/fuse/encfs
-brew cask install calibre
+brew cask install dropbox
 brew cask install evernote
 brew cask install firefox
 brew cask install imageoptim
 brew cask install iterm2
-# brew cask install spectacle
 brew cask install postbox
 brew cask install postman
-brew cask install sublime-text
+brew cask install visual-studio-code
+brew cask install handbrake
+brew cask install keepassx
 
 # Remove outdated versions from the cellar.
 brew cleanup
