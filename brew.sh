@@ -52,9 +52,9 @@ brew install wget --with-iri
 brew install gnupg
 
 # Install more recent versions of some macOS tools.
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
+brew install homebrew grep
+brew install homebrew openssh
+brew install homebrew screen
 #brew install homebrew/php/php56 --with-gmp
 
 # Install font tools.
@@ -101,6 +101,7 @@ brew install fd
 brew install jq
 brew install p7zip
 brew install pigz
+brew install ncdu
 brew install rename
 brew install ack
 brew install speedtest_cli
@@ -117,16 +118,16 @@ brew install tldr
 brew install ponysay
 
 # OS X Stuff
-brew cask install dropbox
-brew cask install evernote
-brew cask install firefox
-brew cask install imageoptim
+#brew cask install dropbox
+#brew cask install evernote
+#brew cask install firefox
+#brew cask install imageoptim
 brew cask install iterm2
-brew cask install postbox
-brew cask install postman
-brew cask install visual-studio-code
-brew cask install handbrake
-brew cask install keepassx
+#brew cask install postbox
+#brew cask install postman
+#brew cask install visual-studio-code
+#brew cask install handbrake
+#brew cask install keepassx
 
 # Remove outdated versions from the cellar.
 brew cleanup
