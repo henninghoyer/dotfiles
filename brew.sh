@@ -113,6 +113,7 @@ brew install zopfli
 
 # Programming thingies
 brew install python3
+brew install node
 
 brew install tldr
 brew install ponysay
