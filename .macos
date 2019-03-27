@@ -1,3 +1,19 @@
+# Stuff to add if necessary
+# Textedit default format to text
+# Trackpad: tap to click, secondary click is tap with two fingers
+# Accessibility: three finger drag
+# Finder: list view as default
+# Battery: show percentage
+# Turn on Firewall and FileVault
+# Dock-Size ~25%, Magnification about ~33%
+# Accessibility -> Keyboard -> Shortcuts -> Full Keyboard Access to All controls
+# Show target url in bottom status of safari: 
+# Show develop menu in safari
+# Show full url in smart search field
+# Show website icons on tabs (view -> show status bar)
+
+
+
 #!/usr/bin/env bash
 
 # Based on
