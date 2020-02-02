@@ -18,6 +18,11 @@ alias h="history"
 alias j="jobs"
 alias ws="cd ~/workspace"
 
+# K8s Shortcuts
+alias k="kubectl"
+alias kd="kubectl describe"
+alias kg="kubectl get"
+
 #aliases for commands which have been replaced with something better or more usefull (for me)
 #original can be run with command (e.g. command cat)
 alias cat='bat'
