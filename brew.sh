@@ -130,6 +130,8 @@ brew cask install iterm2
 #brew cask install handbrake
 #brew cask install keepassx
 brew cask install keepassxc
+brew cask install stellarium
+brew cask install postman
 
 # Remove outdated versions from the cellar.
 brew cleanup
