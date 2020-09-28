@@ -88,6 +88,8 @@ brew install homebrew screen
 # brew install ucspi-tcp # `tcpserver` etc.
 # brew install xpdf
 # brew install xz
+brew install rclone
+brew install jdupes
 
 # Install other useful binaries.
 brew install git
@@ -130,8 +132,8 @@ brew cask install iterm2
 #brew cask install handbrake
 #brew cask install keepassx
 brew cask install keepassxc
-brew cask install stellarium
-brew cask install postman
+#brew cask install stellarium
+brew cask install insomnia
 
 # Remove outdated versions from the cellar.
 brew cleanup
