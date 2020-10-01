@@ -27,7 +27,7 @@ alias kg="kubectl get"
 #original can be run with command (e.g. command cat)
 alias cat='bat'
 alias ping='prettyping'
-alias top='htop'
+alias top='sudo htop'
 # no alias for fd, that already shorter then find anyway
 alias du="ncdu --color dark -rr -x --exclude .git --exclude node_modules"
 alias help='tldr'
