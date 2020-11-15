@@ -139,6 +139,8 @@ brew cask install calibre
 # from app store
 magnet
 (office)
+steuertipps
+hp druckerzeugs
 
 # Remove outdated versions from the cellar.
 brew cleanup
