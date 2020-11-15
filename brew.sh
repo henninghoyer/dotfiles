@@ -133,6 +133,12 @@ brew cask install visual-studio-code
 brew cask install keepassxc
 #brew cask install stellarium
 brew cask install insomnia
+brew cask install little-snitch
+brew cask install calibre
+
+# from app store
+magnet
+(office)
 
 # Remove outdated versions from the cellar.
 brew cleanup
