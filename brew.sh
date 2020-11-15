@@ -121,16 +121,15 @@ brew install tldr
 brew install ponysay
 
 # OS X Stuff
-#brew cask install dropbox
+brew cask install dropbox
 #brew cask install evernote
-#brew cask install firefox
+brew cask install firefox
 #brew cask install imageoptim
 brew cask install iterm2
 #brew cask install postbox
 #brew cask install postman
-#brew cask install visual-studio-code
+brew cask install visual-studio-code
 #brew cask install handbrake
-#brew cask install keepassx
 brew cask install keepassxc
 #brew cask install stellarium
 brew cask install insomnia
