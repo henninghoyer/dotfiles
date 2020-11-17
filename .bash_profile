@@ -56,3 +56,11 @@ fi
 # Key bindings
 # ------------
 source "/usr/local/opt/fzf/shell/key-bindings.bash"
+
+# Theme
+# -------------
+export THEME=$HOME/.bash/themes/agnoster-bash/agnoster.bash
+if [[ -f $THEME ]]; then
+    export DEFAULT_USER=`whoami`
+    source $THEME
+fi

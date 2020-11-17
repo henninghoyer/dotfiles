@@ -9,7 +9,7 @@ which -s brew
 if [[ $? != 0 ]] ; then
     # Install Homebrew
     # https://github.com/mxcl/homebrew/wiki/installation
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 else
     # Make sure we're using the latest Homebrew
     brew update
@@ -19,7 +19,7 @@ fi
 brew upgrade
 
 # Install cask to manage OS X apps...
-brew tap caskroom/cask
+brew tap homebrew/cask
 
 # Install GNU core utilities (those that come with macOS are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
@@ -137,10 +137,10 @@ brew cask install little-snitch
 brew cask install calibre
 
 # from app store
-magnet
-(office)
-steuertipps
-hp druckerzeugs
+#magnet
+#(office)
+#steuertipps
+#hp druckerzeugs
 
 # Remove outdated versions from the cellar.
 brew cleanup
